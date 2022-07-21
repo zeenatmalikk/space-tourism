@@ -1,0 +1,134 @@
+.home {
+  background-image: url("../../starter-code/assets/home/background-home-desktop.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 1700px 900px;
+}
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 100px;
+}
+.line1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.space {
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: 300;
+  letter-spacing: 13px;
+}
+.space-desc {
+  width: 40%;
+  font-size: 19px;
+  font-weight: 300;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore {
+  height: 230px;
+  width: 15%;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+  font-size: 25px;
+}
+@media only screen and (max-width: 379px) {
+  .home {
+    background-image: url("../../starter-code/assets/home/background-home-mobile.jpg");
+    /* height:100vh; */
+    /* width: 100vw; */
+    background-repeat: no-repeat;
+    background-size: 400px 900px;
+  padding: 18% 0;
+
+  }
+  .bottom-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+  }
+  .line1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .space {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 11px;
+    text-align: center;
+  }
+  .space-desc {
+    width: 100%;
+    font-size: 19px;
+    font-weight: 300;
+  }
+
+  .explore {
+    height: 180px;
+    width: 48%;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 579px){
+  .explore {
+    height: 200px;
+    width: 48%;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 100px;
+    /* left: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .line1{
+    text-align: center;
+  }
+  .space{
+    font-size: 55px;
+    text-align: center;
+  }
+  .space-desc{
+    width: 100%;
+    text-align: center;
+  }
+  .bottom-text {
+    width: 90%;
+    position: absolute;
+    top: 80px;
+    font-size: 19px;
+    font-weight: 300;
+  }
+}

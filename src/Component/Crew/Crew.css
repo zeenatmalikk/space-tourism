@@ -1,0 +1,196 @@
+.crew {
+  background: url("../../starter-code/assets/crew/background-crew-desktop.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 1700px 900px;
+  /* display: flex;justify-content: center;flex-direction: column;align-items: center; */
+}
+.crew-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.crew-pointer {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 0 0 0 7%;
+
+  /* text-align: left; */
+}
+.crew-point {
+  opacity: 0.5;
+  padding: 0 20px;
+}
+.crew-desig,
+.crew-name,
+.crew-desc {
+  padding: 0 0 10px 0;
+}
+.crew-desig {
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: left;
+
+}
+.crew-name {
+  font-size: 35px;
+  font-weight: 350;
+  text-transform: uppercase;
+  text-align: left;
+}
+.crew-desc {
+  font-size: 17px;
+  width: 80%;
+  text-align: left;
+
+}
+.crew-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.crew-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.crew-images {
+  height: 500px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 475px) {
+  .crew {
+    background: url("../../starter-code/assets/crew/background-crew-mobile.jpg");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: auto 900px;
+    /* display: flex;justify-content: center;flex-direction: column;align-items: center; */
+  }
+  .crew-pointer {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 25% 0 0 2%;
+
+    /* text-align: left; */
+  }
+  .crew-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .crew-images {
+    height: 270px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 10px;
+    /* display: block; */
+  }
+  .crew-container {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .crew-content-container {
+    display: block;
+    padding: 0 20px;
+  }
+  .crew-desig {
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 5px 0;
+  }
+  .crew-name {
+    font-size: 25px;
+    font-weight: 350;
+    text-transform: uppercase;
+  }
+  .crew-desc {
+    font-size: 17px;
+    width: 80%;
+  }
+}
+
+/*Carousel css*/
+.carousel.carousel-slider {
+    overflow: inherit;
+  }
+  .carousel .thumbs {
+    display: none !important;
+  }
+  .carousel .control-next.control-arrow,
+  .carousel .control-next.control-arrow:hover {
+    /* background-color: rgba(139, 92, 246); */
+    right: 110px;
+    display: none;
+    background-color: transparent;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .carousel .control-next.control-arrow,
+    .carousel .control-next.control-arrow:hover {
+      background-color: transparent;
+      visibility: hidden;
+    display: none;
+
+    }
+  
+    .carousel .control-prev.control-arrow,
+    .carousel .control-prev.control-arrow:hover {
+      background-color: transparent;
+      visibility: hidden;
+    display: none;
+
+    }
+  }
+  
+  .carousel .control-prev.control-arrow,
+  .carousel .control-prev.control-arrow:hover {
+    /* background-color: rgba(139, 92, 246); */
+    left: 110px;
+    background-color: transparent;
+    display: none;
+
+  }
+  
+  .carousel .control-arrow,
+  .carousel.carousel-slider .control-arrow {
+    opacity: 1;
+  }
+  
+  .carousel .control-next.control-arrow:before {
+    content: "";
+    border: solid #0135ad;
+    border-width: 0 8px 8px 0;
+    /* display: inline-block; */
+    padding: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    display: none;
+    /* background-color: rgba(139, 92, 246); */
+  
+    /* border-radius: 50%; */
+  }
+  
+  .carousel .control-prev.control-arrow:before {
+    content: "";
+    border: solid #0135ad;
+    border-width: 0 8px 8px 0;
+    /* display: inline-block; */
+    display: none;
+
+    padding: 10px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    /* background-color: rgba(139, 92, 246); */
+  }
+  

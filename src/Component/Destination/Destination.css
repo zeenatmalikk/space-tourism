@@ -1,0 +1,115 @@
+.destination {
+  background-image: url("../../starter-code/assets/destination/background-destination-desktop.jpg");
+  /* height: 100vh; */
+  
+}
+.pointer{
+  opacity: 0.5;
+}
+
+.destination-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.images-dest{
+  margin: 60px 0;
+}
+.choose-destination {
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Bellefair", serif;
+  text-align: center;
+}
+.btn-dest{
+  background-color: initial;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-dest:hover, .btn-dest:focus, .btn-dest:active{
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  padding: 2px 0;
+  transition: color 0.1s, background-color 0.1s;
+}
+.destination-flex{
+  display: flex;
+justify-content: center;flex-direction: column;width: 100%;
+}
+.destination-names{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.moon-dest{
+cursor: pointer;
+}
+
+@media only screen and (max-width:377px) {
+  .destination {
+    background-image: url("../../starter-code/assets/destination/background-destination-mobile.jpg");
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: auto 1300px;
+    
+  }
+  .pointer{
+    opacity: 0.5;
+  }
+  
+  .destination-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .images-dest{
+    margin: 60px 0 0px 0;
+  }
+  .choose-destination {
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Bellefair", serif;
+    text-align: center;
+  }
+  .btn-dest{
+    background-color: initial;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btn-dest:hover, .btn-dest:focus, .btn-dest:active{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    padding: 2px 0;
+    transition: color 0.1s, background-color 0.1s;
+  }
+  .destination-flex{
+    display: flex;
+  justify-content: center;flex-direction: column;width: 100%;
+  }
+  .destination-names{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .moon-dest{
+  cursor: pointer;
+  }
+}

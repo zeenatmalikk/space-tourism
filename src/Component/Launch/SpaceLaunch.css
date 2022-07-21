@@ -1,0 +1,88 @@
+.launch {
+  background-image: url("../../starter-code/assets/technology/background-technology-desktop.jpg");
+  height: 100vh;
+  background-size: 1700px 900px;
+  background-repeat: no-repeat;
+  /* display: flex;justify-content: center; */
+  flex-direction: column;
+}
+.launch-container{
+    /* height: 100vh; */
+    display: flex;align-items: center;justify-content: center;
+  width: 43%;
+
+}
+.space-launch {
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Bellefair", serif;
+  text-align: left;
+  width: 40%;
+  margin: 50px 10px;
+}
+.launch-pointer {
+  opacity: 0.5;
+}
+.number-container{
+    width: 100%;
+}
+.numbers{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    display: flex;align-items: center;justify-content: center;
+    font-size: 26px;
+    margin: 20px 0;
+}
+.numbers:hover, .numbers:focus, .numbers:active{
+    color: #000;
+    cursor: pointer;
+    background-color: #999;
+    
+}
+@media only screen and (max-width:377px){
+  .launch {
+    background-image: url("../../starter-code/assets/technology/background-technology-desktop.jpg");
+    height: 100%;
+    display: flex;justify-content: center;
+    flex-direction: column;
+  }
+  .launch-container{
+      /* height: 100vh; */
+      display: flex;align-items: center;justify-content: center;
+    width: 43%;
+  
+  }
+  .space-launch {
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Bellefair", serif;
+    text-align: left;
+    width: 40%;
+    margin: 50px 10px;
+  }
+  .launch-pointer {
+    opacity: 0.5;
+  }
+  .number-container{
+      width: 100%;
+  }
+  .numbers{
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+      border: 1px solid #fff;
+      display: flex;align-items: center;justify-content: center;
+      font-size: 26px;
+      margin: 20px 0;
+  }
+  .numbers:hover, .numbers:focus, .numbers:active{
+      color: #000;
+      cursor: pointer;
+      background-color: #999;
+      
+  }
+}
