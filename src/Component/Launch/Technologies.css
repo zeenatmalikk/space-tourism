@@ -10,6 +10,7 @@
     font-weight: 300;
     padding: 20px 10px;
     width: 90%;
+    height: 300px;
 }
 .tech-name{
     padding: 0px 10px;
@@ -24,19 +25,23 @@
         display: flex;
         align-items: center;justify-content: center;
         flex-direction: column;
-    
     }
     .tech-desc{
         font-size: 20px;
         font-weight: 300;
         padding: 20px 10px;
         width: 100%;
+        height: 350px;
     }
     .tech-name{
         padding: 0px 10px;
         width: 90%;
     }
+    .tech-img-container{
+        display: block;
+    }
     .tech-image{
-        width: 360px;
+        width: 250px;
+        height: 250px;
     }
 }

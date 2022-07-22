@@ -45,7 +45,7 @@
 @media only screen and (max-width:377px){
   .launch {
     background-image: url("../../starter-code/assets/technology/background-technology-desktop.jpg");
-    height: 100%;
+    height: auto;
     display: flex;justify-content: center;
     flex-direction: column;
   }

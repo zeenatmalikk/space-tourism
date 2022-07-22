@@ -13,7 +13,7 @@ const Technologies = ({ tech }) => {
             <Grid container style={{ paddingLeft: "20px" }}>
             <Grid
               item
-              md={8}
+              md={6}
               xs={12}
               className="technology-container"
               style={{ flexDirection: "column" }}
@@ -23,7 +23,7 @@ const Technologies = ({ tech }) => {
                 <p className="tech-desc">{tech.description} </p>
               </div>
             </Grid>
-            <Grid item md={4} xs={12}>
+            <Grid item md={6} xs={12} className='tech-img-container'>
               <img className="tech-image" src={techimage} alt="" />
             </Grid>
           </Grid>
