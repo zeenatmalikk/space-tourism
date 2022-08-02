@@ -48,6 +48,8 @@
     height: auto;
     display: flex;justify-content: center;
     flex-direction: column;
+  background-size: 1700px 1000px;
+
   }
   .launch-container{
       /* height: 100vh; */

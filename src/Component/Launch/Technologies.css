@@ -19,7 +19,7 @@
 .tech-image{
     width: 360px;
 }
-@media only screen and (max-width:377px) {
+@media only screen and (max-width:477px) {
     .technology-container{
         width: 100%;
         display: flex;

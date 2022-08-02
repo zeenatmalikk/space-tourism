@@ -4,13 +4,14 @@ import techimage from "../../starter-code/assets/technology/image-launch-vehicle
 import data from "../../starter-code/data.json"
 import "./Technologies.css";
 const Technologies = ({ tech }) => {
-
-  console.log(tech);
+console.log(tech);
+  console.log("immmm",tech.images);
+  const techim=tech.images
   return (
     <div>
      {
         tech?(
-            <Grid container style={{ paddingLeft: "20px" }}>
+            <Grid container className="techn" style={{ paddingLeft: "20px" }}>
             <Grid
               item
               md={6}

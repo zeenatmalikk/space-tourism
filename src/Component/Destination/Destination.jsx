@@ -14,7 +14,7 @@ const Destination = () => {
 
   return (
     <div className="destination">
-      <Header/>
+      <Header />
       <Grid container>
         <Grid item md={6} xs={12} className="destination-flex">
           <div className="destination-title">

@@ -34,3 +34,43 @@ padding: 5px 0;
     font-size: 20px;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width:477px){
+    .single-dest{
+        margin-top: 5%;
+        width: 100%;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    .dest-name{
+        font-size: 46px;
+        letter-spacing: 6px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .dest-desc{
+        width: 100%;
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(255,255,255,.25);
+        text-align: center;
+        height: 150px;
+    }
+    
+    .flex-time-dist{
+        display: flex;
+        padding: 10px 0;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .distance-dest p{
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 5px 0;
+    }
+    .distance-dest h3{
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
